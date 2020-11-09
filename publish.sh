@@ -2,7 +2,7 @@
 set -e
 
 INPUT_BRANCH=${INPUT_BRANCH:-gh-pages}
-INPUT_DIRECTORY=${INPUT_DIRECTORY:-'website/build/donate-initiative'}
+INPUT_DIRECTORY=${INPUT_DIRECTORY:-'website/build/overview'}
 
 echo "Push to branch $INPUT_BRANCH";
 [ -z "${GITHUB_TOKEN}" ] && {
